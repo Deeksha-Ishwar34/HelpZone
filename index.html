@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpZone</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to HelpZone</h1>
+        <p>Your go-to platform for emergency help!</p>
+    </header>
+
+    <main>
+        <section id="requestHelp">
+            <h2>Request Help</h2>
+            <form id="helpForm">
+                <label for="location">Your Location:</label>
+                <input type="text" id="location" name="location" required>
+                
+                <label for="emergency">Type of Emergency:</label>
+                <select id="emergency" name="emergency" required>
+                    <option value="medical">Medical</option>
+                    <option value="fire">Fire</option>
+                    <option value="accident">Accident</option>
+                    <option value="Other">Other</option>
+                </select>
+                
+                <button type="submit">Send Help Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HelpZone. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Linking the JS file -->
+</body>
+</html>
